@@ -14,7 +14,7 @@ import io.cucumber.testng.CucumberOptions;
 				"rerun:target/failedrun.txt"
 		         },
 		publish =true,
-	    tags ="@sanity"
+	    tags ="@functional"
 		
 				
 		)
