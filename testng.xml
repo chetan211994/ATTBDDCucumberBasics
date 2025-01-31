@@ -8,7 +8,4 @@
 		 <class name="uiappfeature.AmazonTestRunner"></class> 
 	  </classes>
   </test> <!-- Test -->
-  
-  
-  
-</suite> <!-- Suite -->
+  </suite> <!-- Suite -->
