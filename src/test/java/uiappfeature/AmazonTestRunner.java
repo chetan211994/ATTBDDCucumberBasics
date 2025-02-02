@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 		plugin = {
 				"pretty",
 				"html:target/amazontestreport/reports.html",
-				"rerun:target/failedrun.txt"
+				//"rerun:target/failedrun.txt"
 		         },
 		publish =true,
 	    tags = "@sanity"
