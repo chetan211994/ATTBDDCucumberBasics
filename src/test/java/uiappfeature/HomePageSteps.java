@@ -13,11 +13,15 @@ public class HomePageSteps {
 	
 	HomePage homepage= new HomePage(DriverFactory.getDriver());
 	@Given("I am at the landing page")
-	public void i_am_at_the_landing_page() {
+	public void i_am_at_the_landing_page() throws InterruptedException {
 	    WebDriver driver = DriverFactory.getDriver();
 		
 	    driver.get("https://www.amazon.in/");
 	    driver.navigate().refresh();
+	    Thread.sleep(3000);
+	    driver.navigate().refresh();
+	    Thread.sleep(3000);
+	    
 		
 	}
 	
