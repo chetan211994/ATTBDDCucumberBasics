@@ -13,8 +13,8 @@ import io.cucumber.testng.CucumberOptions;
 				"html:target/amazontestreport/reports.html",
 				//"rerun:target/failedrun.txt"
 		         },
-		publish =true
-	    //tags = "@sanity"
+		publish =true,
+	    tags = "@sanity"
 		
 				
 		)

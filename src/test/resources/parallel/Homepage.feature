@@ -4,7 +4,7 @@ Scenario: validation of title page
 Given I am at the landing page
 Then Page title should contains "Shopping"
 
-@functional
+@sanity
 Scenario: verify cart icon
 Given I am at the landing page
 Then cart icon should get display
