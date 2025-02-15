@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
-	@FindBy(xpath ="//*[@id='nav-cart']")
+	@FindBy(xpath ="//*[@id='nav-cart123']")
 	private WebElement cartIcon;
 	
 	@FindBy(xpath = "//*[@alt='Great Freedom Sale']")
